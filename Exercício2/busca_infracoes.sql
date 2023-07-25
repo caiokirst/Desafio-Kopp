@@ -9,4 +9,4 @@ SELECT
     i.valida
 FROM infracao i 
 WHERE velocidade_medida >= (velocidade_permitida * 1.2) -- Velocidade medida igual ou acima de 20% da permitida
-ORDER BY data, hora, remessa_id;
+ORDER BY data, hora;
